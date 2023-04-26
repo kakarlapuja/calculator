@@ -4,7 +4,7 @@ let calc = (n) => {
 }
 
 let  Result = () =>{
-    // for give error
+    // for throw error
     try{
         out.value = eval(out.value);
     }
