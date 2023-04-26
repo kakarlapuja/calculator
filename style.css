@@ -2,7 +2,8 @@
     margin:0;
     padding:0;
     box-sizing:border-box;
-  
+    border:none;
+    outline:none;  
 }
 .container{
     height: 1000px;
@@ -12,29 +13,33 @@
     justify-content: center;
     align-items: center;
 }
-.displayNum{
+.display{
     height: 450px;
     width: 20%;
-    background-color: rgb(82, 77, 73);
+    background-color: rgb(56, 54, 52);
     border-radius: 15px;  
     
 }
-.displayNum  input[type="text"] {
+ input {
    height: 50px;
    width: 90%;
 margin-top: 4%;
-margin-left: 5%;
+ margin-left: 5%; 
+padding:10px;
 border-radius: 10px;
-border:none;
-outline:none;
+font-size:40px;
 text-align: right;
+box-shadow: inset -6px -6px 13px #fff,
+inset 6px 6px 13px grey;/*shadow inside*/
+color:darkgray;
 }
-.displayNum  input[type="button"]
+button
 {
  height: 50px;
  width: 60px;
  font-size:20px;
- background-color: rgb(212, 161, 191) ;
+ font-weight: bold;
+ background-color: rgb(211, 191, 203) ;
   border-radius: 30px;
   color:black;
   box-shadow: 5px 3px 5px rgb(189, 233, 122);
@@ -42,8 +47,8 @@ text-align: right;
  margin-top: 5%;
  margin-left: 6%; 
  margin-bottom: 1%; 
- 
  cursor: pointer;
- border:0;
- outline:0;
+ 
 }
+
+
